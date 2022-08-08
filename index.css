@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* h1{
+   text-align: center;
+   color: red;
+}
+.p_1::first-letter{
+   color: blue;
+   
+}
+.p_1{
+   background-color: black;
+   color: white;
+}
+.p_1:hover{
+   background-color: orange;
+   color: red;
+   text-align: justify;
+   border:3px solid black;
+   margin: 10px 20px;
+   padding: 10px 20px;
+}
+ul li:nth-child(odd){
+   color: aliceblue;
+   background-color: black;
+   display: inline-block;
+   width: 300px;
+}
+ul li:nth-child(odd):hover{
+   color: blue;
+   background-color: red;
+}
+
+
+::selection{
+   color: brown;
+   background-color: blueviolet;
+}
+.makingDemo::before,.makingDemo::after{
+   content: '';
+   background-color: yellow;
+   width: 100%;
+   display: inline-block;
+   height: 20px;
+   text-align: justify;
+}
+input::placeholder{
+   color:white;
+   background-color: blueviolet;
+}
+.course-list{
+   background-color: brown;
+   padding: 10px 20px;
+   width: 500px;
+   margin-top: 20px;
+}
+
+.course-list ul {
+   background: none;
+   list-style-type:circle;
+   list-style-position: inside;
+   list-style-image: url(./image/accept.png);
+  
+
+}
+.course-list ul li{
+   background: none;
+   list-style-type: none;
+   font-size: 30px;
+   
+}
+.programmingLanguageList li{
+   margin-top: 20px;
+}
+ .programmingLanguageList li::before{
+   content: '\f058';
+   font-family: 'Font Awesome 5 Free';
+   color:white;
+   background-color: teal;
+   font-weight: bolder;
+ }
+ #id_1{
+   background-color: greenyellow;
+   box-sizing: border-box;
+   width: 50%;
+   float: left;
+ }
+ #id_1 h1{
+   float:left;
+ }
+ #id_2 h1{
+   float: left;;
+ }
+ #id_2{
+   background-color: blue;
+   box-sizing: border-box;
+   width: 50%;
+   float: left;
+   text-align: justify;
+ }
+#clear-div{
+   clear: both;
+} */
+
+#nav-menu ul {}
+
+#nav-menu ul li {
+   list-style-type: none;
+   margin: 20px; 
+   float: left;
+}
+#nav-menu ul li a {
+ text-decoration: none;
+ font-size: 25px;
+ color: gray;
+ background-color: blue;
+ padding: 10px 20px;
+ cursor: pointer;
+
+}
+#nav-menu ul li a:hover{
+   color:black;
+   background-color: blueviolet;
+}
